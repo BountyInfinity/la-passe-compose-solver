@@ -1,3 +1,5 @@
+function loop() {
+
 let pronoun = document.getElementById('pronoun-input').innerHTML;
 let verb = document.getElementById('verb-input').innerHTML;
 let verb_converted = verb.split(" ").pop();
@@ -77,3 +79,7 @@ if (is_plural) {
 }
 
 document.getElementById("answer-input").value = result + verb_converted;
+
+}
+
+setInterval(loop, 50);
