@@ -82,4 +82,4 @@ document.getElementById("answer-input").value = result + verb_converted;
 
 }
 
-setInterval(loop, 50);
+setInterval(loop, 10);
